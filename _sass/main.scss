@@ -1,0 +1,22 @@
+$main-color: #bf8604;
+
+@import 'navbar';
+@import 'index';
+@import 'areas';
+@import 'footer';
+@import 'utility';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
