@@ -1,7 +1,7 @@
 <div id="gold-bar"></div>
 <nav>
-	<div class="container">
-		<ul>
+	<div class="cont">
+		<ul class="links-left">
 			{% for item in site.data.navigation_left %}
 				<li>
 					<a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
@@ -13,7 +13,7 @@
 		<a href="#" class="navbar-brand">
 			<img src="/assets/images/logo.png" alt="">
 		</a>
-		<ul>
+		<ul class="links-right">
 			{% for item in site.data.navigation_right %}
 				<li>
 					<a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>

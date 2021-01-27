@@ -57,3 +57,35 @@
 		}
 	}
 }
+
+@media (max-width: 800px) {
+	#areas-section {
+		.container {
+			.areas-container {
+				.area-box {
+					height: 200px;
+					.btn {
+						width: 200px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	#areas-section {
+		.container {
+			width: 80%;
+			.areas-container {
+				grid-template-columns: repeat(1, 1fr); 
+				.area-box {
+					height: 200px;
+					.btn {
+						width: 250px;
+					}
+				}
+			}
+		}
+	}	
+}
